@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejemplo html y css</title>
 </head>
 <body>
-    
+    <h1>Ejemplo de CSS por medío del atributo style</h1>
+    <h2>Etiquetas de bloque y etiquetal de linea HTML</h2>
+    <div style="background-color: yellow;">La etiqueta de bloque por excelencia es div esta etiqueta genera saltos de linea con sus etiquetas hermanas.</div>
+    <span style="background-color: yellowgreen;">La etiqueta de linea por excelencia es spam, solo ocupa el espacio necesario que tiene su contenido</span>
+    <div style="background-color: cadetblue; font-size: small;">
+        <label for="idNombre">Nombre</label>
+        <input type="text" id="idNombre">
+        <br>
+        <label for="idAPaterno">Apellido paterno:</label>
+        <input type="text" id="idAPaterno">
+        <br>
+        <label for="idAMaterno">Apellido materno:</label>
+        <input type="text" id="idAMaterno">
+        <br>
+        <label for="idFechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="idFechaNacimiento">
+        <br>
+        <button type="button">Enviar</button>
+        <button type="button">Modificar datos del cliente</button>
+    </div>
+
+    <h2>Ejemplo utilizando un archivo CSS</h2>
+    <div>
+        <h2>Buscador de viajes</h2>
+        <label for="idOrigen">Origen:</label>
+        <input type="text" id="idOrigen">
+        <label for="idDestino">Destino:</label>
+        <input type="text" id="idDestino">
+        <label for="idSelFecha">Selecciona Fecha:</label>
+        <input type="date" id="idSelFecha">
+        <button type="button" class="bg-cornflowerblue">Buscar</button>
+        <button type="button" class="bg-orangered">Limpiar</button>
+        <button type="button" class="c-payasito">Busqueda masiva</button>
+    </div>
 </body>
 </html>

@@ -1,0 +1,30 @@
+/*
+Regla CSS consta de 2 partes:
+1. Selector
+2. Bloque de declaraciones (Son los atributos que vamos a modificar) 
+
+Atributo: Valor;
+*/
+/*Ejemplo de selector por etiqueta*/
+h1{
+    color: orangered;
+    background-color: skyblue;
+}
+
+button{
+    background-color: green;
+    color: whitesmoke;
+}
+/*Ejemplo de otro tipo de selectores*/
+/*Tipo de selector de clases*/
+.bg-cornflowerblue{
+    background-color: cornflowerblue;
+}
+.bg-orangered{
+    background-color: orangered;
+    color: antiquewhite;
+}
+.c-payasito{
+    background-color: fuchsia;
+    color: blue;
+}
